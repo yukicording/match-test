@@ -1,0 +1,873 @@
+@media (max-width: 900px) {
+    
+
+   /* member_top */
+    header {
+    height: 60px;
+    text-align: center;
+        padding-top: 0px;
+}
+
+.login_content {
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider-nav {
+  height: 60px;
+    padding-top: 20px;
+    width: 100%;
+}
+    .login_content1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    
+    margin: 10px auto;
+     text-align: center;
+        padding-top:15px;
+}
+.kakomi {
+    width: 100%;
+    margin: 5px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+    #humberger {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+
+
+    .h3h3 {
+
+    padding-top: 20px;}
+
+main {
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 100%;
+}
+
+    .main_inbox {
+    
+    margin: 0px auto;
+    width: 100%;
+}
+    .main_inbox1 {
+    
+    margin: 0px auto;
+    width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+
+.search {
+  font-size: 20px;
+}
+    
+    .search_img {
+        width: 38px;
+        height: 59px;
+    }
+
+.img {
+    width: 43%;
+    max-width: 160px;
+    height: 220px;
+    font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+    margin-top: 0px;
+    margin-right: auto;
+}
+
+    .img img {
+         width: 100%;
+        height:auto;
+    }
+.img a {
+    text-decoration: none;
+    color: black;
+}
+
+    .hobby_categoryh3 {
+padding-top: 15px;
+    }
+    
+    .img_name{
+    width: 80%;
+    height: 20px;
+
+    margin: 5px auto 0px auto;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img_text {
+    width: 90%;
+    height: 40px;
+    border: 1px solid;
+    
+    margin: 5px auto;
+    font-size: 11px;
+    text-decoration-color: black;
+    border-radius: 15px;
+}
+
+    
+    
+    
+    
+header a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+    header img {
+        margin-top: 5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+    
+    .paging {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+
+/*other_profile_view*/
+.other_img {
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/*inbox*/
+.inbox_img {
+    border-radius: 50%;
+    float: left;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.inbox_section {
+    height: 70px;
+    overflow: hidden;
+}
+.inbox_name {
+    float: left;
+    margin-top: 9px;
+    margin-left: 21px;
+    margin-right: 4px;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 14px;}
+
+.inbox_place {
+float: left;
+    margin-top:9px;
+    font-size: 13px;
+    margin-bottom: 6px;
+} 
+.inbox_age {
+    margin-top: 11px;
+    font-size: 12px;
+margin-bottom: 7px;
+}
+.delete {
+    margin: 5px 5px;
+}
+
+.aaaaa {
+   margin-left: 20px;
+}
+
+.aaaaa a {
+   text-decoration: none;
+    padding-right: 80px;
+}
+    
+    .inbox_matti {
+    height: 30px;
+    width: 50%;
+    float: right;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: solid 2px black;
+    font-size: 15px;
+        padding-top: 5px;
+}
+    
+    .inbox_matti_1 {
+    height: 30px;
+    width: 50%;
+    float: right;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: solid 2px #cccccc;
+    font-size: 15px;
+        padding-top: 5px;
+}
+.inbox_select {
+
+background-color: #F2F3F7;
+}
+    
+    .inbox_message {
+    height: 30px;
+    width: 50%;
+    background-color: white; 
+    line-height: 30px;
+    text-align: center;
+    border-bottom: solid 2px #cccccc;
+        text-decoration: none;
+        padding-top: 5px;
+}
+    
+    .inbox_message_1 {
+    height: 30px;
+    width: 50%;
+    background-color: white; 
+    line-height: 30px;
+    text-align: center;
+    border-bottom: solid 2px black;
+        text-decoration: none;
+        padding-top: 5px;
+}
+    .inbox_select a {
+text-decoration: none;
+        color: black;
+    }
+
+/*my_profine*/
+    
+.pink {
+    width: 100%;
+    padding-top: 9px;
+    margin: 0 auto;
+
+}    
+    
+    
+.profile_img_main {
+width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 38px;
+    float: right;
+}
+
+.profile_img_main img{
+width: 70%;    
+    height: auto;
+}
+
+.profile_img_sub {
+    width: 100%;
+    text-align: center;
+}
+
+.profile_img_sub img{
+    
+width: 70px;
+height: 70px;
+    margin: 10px;
+}
+
+
+
+.my_profile_base {
+   width: 90%;
+    margin: 20px auto;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.my_profile_base p{
+   text-align: center;
+    font-weight: bold;
+}
+
+.my_profile_text {
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 20px;
+} 
+    .my_profile_text_other {
+    padding-bottom: 20px;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+} 
+    .my_profile_text p {
+width: 95%;
+margin: 0 auto;
+    font-size: 14px;
+    margin-top: 10px;
+} 
+    .my_profile_text a{
+    text-align: center;
+    
+} 
+#app {
+    /**背景**/
+    background: rgb(220, 220, 220);
+  color: black;
+  transition: all .2s ease-out;
+    width: 100%;
+    margin: 0 auto;
+}
+    .profile_wrap {
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    .profile_wrap a{
+        color: black;
+        text-decoration: none:
+    }
+    profile_wrap hr {
+    width: 100%;
+}
+    .main_inbox hr {
+opacity: 0.3;
+    width: 80%;
+}.profile_wrap1 hr {
+    width: 80%;
+    margin: 0 auto;
+}
+    
+    .edit_text_center {
+        text-align: center;
+    }
+.accordion1 {
+    float: left;
+    padding-left: 74%;
+z-index:2;
+position: absolute;
+text-decoration: none;
+list-style: none;
+}
+.aaaaaa{
+float: left;
+    margin-left: 62%;}
+    
+    .accordion11 {
+    float: left;
+    padding-left: 1.4%;
+z-index:2;
+position: absolute;
+text-decoration: none;
+list-style: none;
+    border-radius: 15%;
+}
+.accordion11 .inner {display: none;}
+.accordion11 p{cursor: pointer; padding: 5px;}
+.accordion11 p.ac1{
+    border: #005fa7 solid 2px;
+    background-color: gainsboro;
+    
+    list-style: none; 
+    color: #005fa7; 
+    border-radius: 10%;
+    font-weight: 100;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    font-family: "YuGothic M";
+    font-weight: bolder;
+}
+/* LINE風ﾒｯｾｰｼﾞ*/
+
+.line-bc {
+  padding: 45px 0px;
+  max-width: 450px;
+  margin: 0px auto;
+  text-align: right;
+  font-size: 14px;
+}
+    .view_top {
+        max-width: 450px;
+      width: 100%;
+     margin: 0 auto;
+      top: 0;
+      z-index:999;
+    position: fixed;
+left: 50%;
+transform: translate(-50%);
+}
+    
+.acx {
+    width: 80%;
+    float: left;
+    height: 100%;
+    border: none;
+    
+    }
+    
+    .menu {
+      width: 98%;
+      background: #FAFAFA;
+     margin: 0 auto;
+      bottom: 0;
+      z-index:999;
+    text-align: center;
+    position: fixed;
+left: 50%;
+transform: translate(-50%);
+    } 
+    
+
+
+/*以下、②左側のコメント*/
+.balloon6 {
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.balloon6 .faceicon {
+  float: left;
+  margin-right: -50px;
+  width: 40px;
+}
+
+.balloon6 .faceicon img{
+width: 40px;
+    height: 40px;
+  border-radius: 50%;
+    border: 1px solid gray;
+}
+.balloon6 .chatting {
+  width: 100%;
+  text-align: left;
+}
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 10px 0 0 55px;
+  padding: 10px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #F2F3F7;
+    opacity: 0.95;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px; 
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid #F2F3F7;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.says p {
+  margin: 0;
+  padding: 0;
+    font-weight: bold;
+    font-size:13px;
+}
+
+/*以下、③右側の緑コメント*/
+.mycomment {
+  margin: 10px 0;
+}
+.mycomment p {
+  display: inline-block;
+  position: relative; 
+  margin: 0 10px 0 0;
+  padding: 8px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: rgb(235,105,150);
+  font-size: 15px;
+    color: white;
+font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mycomment p:after {
+  content: "";
+  position: absolute;
+  top: 3px; 
+  right: -19px;
+  border: 8px solid transparent;
+  border-left: 18px solid rgb(235,101,152);
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+/* プロフィール文編集　*/
+    .profile_text_edit {
+        width: 90%;
+        padding-top: 10px;
+        text-align: center;
+        margin: 10px auto;
+    }
+.profile_text_edit textarea {
+    height: 300px;
+    width: 90%;
+    }
+    
+    
+.image_list {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.image_box {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+  
+    ul.image_list li .image_box {
+  width: 120px;
+  height: 120px;
+  /* チェックボックスの親要素にrelativeを指定しておきます。 */
+  position: relative;
+    
+}
+    
+ul.image_list li {
+  /* liが横並びになるようにします。 */
+  display: inline-block;
+    width: 40%;
+    padding-bottom: 20px;
+}
+.button {
+  display       : inline-block;
+  border-radius : 20%;          /* 角丸       */
+  font-size     : 20pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 10px 18px;   /* 余白       */
+  background    : rgba(153, 153, 153, 0.91);     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  opacity       : 1;           /* 透明度     */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 14px #666666;  /* 影の設定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  opacity       : 0.8;         /* カーソル時透明度 */
+}
+    .horizontal-list {
+    text-align: center;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    text-align: center;
+    margin-bottom: 10px;
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    }
+    
+    
+    
+    .item {
+      /* 横スクロール用 */
+      display: inline-block;
+      width: 30%;
+
+      /* 見た目調整 */
+        padding-top: 18px;
+      height: 110px;
+      background: white;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    
+    
+    /* いいね　*/
+.iine {
+    padding-top: 2px;
+    width: 90%;
+    margin: 0 auto;
+    height: 130px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+.iine_image {
+    padding-top: 26px;
+    padding-left: 20px;
+    float: left;
+    height: 100px;
+}
+.iine_profile {
+    margin-top: 0px;
+    width: 150%;
+}
+.iine_image img{
+    height: 60px;
+    width: 60px;
+    border: 2px solid;
+}
+.iine_content {
+    padding-left: 120px;
+    padding-top: 45px;
+    
+}
+.iine_name {
+float: left;
+    margin-right: 8px;
+}
+.iine_place {
+    float: left;
+    margin-right: 8px;
+}
+
+
+.h4_iine{
+    padding-top: 30px;
+}
+.h4_match{
+    padding-top: 20px;
+}
+.submit_btn{
+    border: 0px;
+    height:38px;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.submit_btn:hover{
+	cursor: pointer;
+    opacity:0.5;
+}
+
+    
+    
+    
+    
+    .croppie-container {
+    width: 100%;
+    height: 400px;
+}
+    
+    
+    
+    
+#device {
+        padding-top: 0px;
+
+  width: 100%;
+  position: relative;
+  margin: 30 auto;
+  border-radius: 6px;
+  overflow: auto;
+}
+    
+    .slider-nav h3{
+   text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0px;
+    height: 30px;
+    font-size: 17px;
+        width: 100%;
+}
+    
+    
+    
+    
+    
+    
+    .hobby_wrap h5{
+    margin-bottom: 7px;
+    font-size: 1px;
+    float: right;
+}
+ .container {
+padding-top: 0px;
+
+    width: 100%;
+
+		}
+
+.bg{
+clear: both;
+ background-size: cover;
+ position: relative;
+ width: 80%;
+    max-width: 500px;
+    height: 130px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.bg::before{
+ content: ' ';
+ background-color: rgba(0,0,0,.2);
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+    border-radius: 15px;
+  
+}
+
+.box{
+ position: absolute;
+ width: 100%;
+ text-align: center;
+    line-height: 120px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+ 
+.box p{
+ color: #fff;
+}
+
+.hobby_categoryh3 {
+    padding-top: 0px;
+}
+    
+    
+    
+    
+    
+    .topage_keyword {
+width:100%;
+    margin: 0 auto;
+}
+    
+    .example333{
+ margin: 3px auto;
+padding-left: 20px;        
+}
+    
+    
+.upload_img_main {
+    
+    width: 330px;
+    height:330px;
+    margin: 0 auto;
+text-align: center;
+}
+.upload_img_main img {
+    text-align: center;
+    width: 270px;
+    height:270px;
+    
+}
+.upload_img_sub {
+    
+    width: 100%;
+    height: 900px;
+    
+    margin: 0 auto;
+text-align: center;
+
+}
+    .menu2 {
+      width: 100%;
+      background: white;
+     margin: 0 auto;
+      bottom: 0;
+      z-index:999;
+    text-align: center;
+    position: fixed;
+left: 50%;
+transform: translate(-50%);
+padding-top: 10px;
+opacity: 0.96;
+    } 
+
+.menu2 img {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 54px;
+    height:54px;
+}
+.img_up {
+width: 230px;
+    height: 280px;
+    margin: 10px auto;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-radius: 15px;
+    float: none;
+}
+.img_up img {
+    width:210px;
+    height:210px;
+}
+    
+    .new_conversation_textarea{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+        margin-top: 50px;
+}
+
+.new_conversation_textarea textarea{
+    width: 80%;
+    height: 210px;
+   
+}
+    
+    
+    
+
+}
+
+
+
+
+@media screen and (max-width: 630px) {
+
+
+.menu2 img {
+    width:50%;
+    height:auto;
+}
+
+.menu_img{
+    width: 100%;
+    text-align: center;
+}
+
+.menu_img p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+.menu_img a {
+    color: black;
+}
+}
+    
+    

@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+p.sample {
+	width: 200px; height: 50px;
+	background-color: yellowgreen; 
+}.scroll {
+width: 100%;
+height: 200px;
+overflow:scroll; 
+}
+header{
+    
+}
+h1 {
+    font-size: 30px;
+}
+.bg {
+    width:100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../pg_img/abcd1.jpg);
+ background-position: center;
+ background-size: cover;
+ color: #fff;
+ 
+ min-height: 350px;
+ text-align: center;
+}
+
+.box {
+	margin: 0 15px;
+	max-width: 570px;
+}
+
+.box a {
+padding: 10px;
+background-color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: inherit;
+}
+
+.aaa:hover{
+
+    text-decoration: none;
+    opacity: 0.99;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.howto {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #FAF9F7;
+    padding-top: 30px;
+}
+
+.howto h3 {
+text-align: center;
+    font-size: 24px;
+}
+
+.howto p {
+text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.howto_part {
+    width: 190px;
+    height: 550px;
+    
+    float: left;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+
+
+.howto_part p{
+    text-align: center;
+    font-size: 17px;
+    
+}
+
+.howto_part img {
+width: 99%;
+    height: auto;
+        margin: 0 auto;
+}
+
+.features {
+    text-align: center;
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+     background-color: #FAF9F7;
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.feature_part {
+    width: 350px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: aqua;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.feature_part img {
+    width: 150px;
+    height: 150px;
+}
+.feature_part p {
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/** price_table*/
+
+.price-table-wrapper {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #FAF9F7;
+}
+
+.price-table-wrapper h4 {
+text-align: center;
+    clear: both;
+}
+.price-table-wrapper p {
+text-align: left;
+    width: 500px;
+    margin: 0 auto;
+}
+.price-table-wrapper .featured-table {
+  box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+}
+.price-table-wrapper .pricing-table {
+  display: inline-block;
+  border: 1px solid #C8C8C8;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+    width: 250px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__header {
+  padding: 20px;
+  font-size: 20px;
+  color: #909090;
+  background: #E0E0E0;
+}
+.price-table-wrapper .pricing-table__price {
+  color: #66CCCC;
+  padding: 20px;
+  margin: auto;
+  font-size: 40px;
+  font-weight: 500;
+}
+.price-table-wrapper .pricing-table__button {
+  display: block;
+  background: #66CCCC;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:before {
+  position: absolute;
+  left: -20%;
+  top: -10%;
+  content: '';
+  width: 60%;
+  height: 220%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  background: white;
+  opacity: .3;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:after {
+  position: absolute;
+  content: '>';
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  padding: 15px;
+  padding-right: 40px;
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:hover {
+
+}
+.price-table-wrapper .pricing-table__list {
+  padding: 20px;
+  color: #A0A0A0;
+}
+.price-table-wrapper .pricing-table__list li {
+  padding: 15px;
+  border-bottom: 1px solid #C8C8C8;
+}
+.price-table-wrapper .pricing-table__list li:last-child {
+  border: none;
+}
+.price-table-wrapper .pricing-table:hover {
+  box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:before {
+  top: -80%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 100%;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:after {
+  opacity: 1;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #f4f4f4;
+	color: #5a5656;
+	font: 100%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+
+
+strong {
+	font-weight: bold;
+}
+
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	margin: 50px auto;
+	width: 300px;
+}
+
+form fieldset input[type="text"], input[type="password"] {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 280px;
+  -webkit-appearance:none;
+}
+
+form fieldset input[type="submit"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 300px;
+  -webkit-appearance:none;
+}
+
+form fieldset a {
+	color: #5a5656;
+	font-size: 10px;
+}
+
+form fieldset a:hover { text-decoration: underline; }
+
+.btn-round {
+	background: #5a5656;
+	border-radius: 50%;
+	color: #f4f4f4;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 125px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+}
+
+.facebook-before {
+	background: #0064ab;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.facebook {
+	background: #0079ce;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+.twitter-before {
+	background: #189bcb;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+
+.twitter {
+	background: #1bb2e9;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}

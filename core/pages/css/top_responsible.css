@@ -1,0 +1,227 @@
+@media (max-width: 767px) {
+    
+    header{
+    
+}
+    body {
+      background-color: #FAF9F7;
+    }
+h1 {
+    font-size: 19px;
+}
+    
+    .bg {
+    width:100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../pg_img/abcd1.jpg);
+ background-position: center;
+ background-size: cover;
+ color: #fff;
+ 
+ min-height: 350px;
+ text-align: center;
+}
+
+    
+    .box a {
+padding:　8px;
+background-color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+    font-family: inherit;
+}
+
+.aaa:hover{
+
+    text-decoration: none;
+    opacity: 0.99;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.howto h3 {
+text-align: center;
+    font-size: 18px;
+}
+    .howto p {
+text-align: center;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+ .howto {
+    width: 100%;
+     margin-bottom: 10px;
+     height: 1930px;
+     padding-top: 0px;
+}   
+.howto_part {
+    width: 90%;
+    height: 450px;
+   margin: 0 auto;
+    float: none;
+    border-bottom: bold solid rgba(0,0,0,0.5);
+    margin-bottom: 0px;
+    text-align: center;
+}
+  .howto_part img {
+width: 220px;
+    height: 350px;
+        margin: 0 auto;
+      text-align: center;
+}
+    
+ 
+    
+    
+.features {
+    text-align: center;
+    width: 100%;
+    height: 1900px;
+    margin: 0 auto;
+     
+}
+
+.feature_part {
+    width: 320px;
+    height: 410px;
+    float: none;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: aqua;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.feature_part img {
+    width: 150px;
+    height: 150px;
+}
+.feature_part p {
+    width: 270px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+    .price-table-wrapper {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+}
+    .price-table-wrapper h4 {
+text-align: center;
+    clear: none;
+}
+    .price-table-wrapper p {
+text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+.price-table-wrapper .featured-table {
+  box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+}
+.price-table-wrapper .pricing-table {
+  display: inline-block;
+  border: 1px solid #C8C8C8;
+  border-radius: 10px;
+  background: white;
+  margin: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+     width: 250px;
+}
+.price-table-wrapper .pricing-table__header {
+  padding: 20px;
+  font-size: 20px;
+  color: #909090;
+  background: #E0E0E0;
+}
+.price-table-wrapper .pricing-table__price {
+  color: #66CCCC;
+  padding: 20px;
+  margin: auto;
+  font-size: 40px;
+  font-weight: 500;
+}
+.price-table-wrapper .pricing-table__button {
+  display: block;
+  background: #66CCCC;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:before {
+  position: absolute;
+  left: -20%;
+  top: -10%;
+  content: '';
+  width: 60%;
+  height: 220%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  background: white;
+  opacity: .3;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:after {
+  position: absolute;
+  content: '>';
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  padding: 15px;
+  padding-right: 40px;
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:hover {
+
+}
+.price-table-wrapper .pricing-table__list {
+  padding: 20px;
+  color: #A0A0A0;
+opacity: 0.8;
+}
+.price-table-wrapper .pricing-table__list li {
+  padding: 15px;
+  border-bottom: 1px solid #C8C8C8;
+}
+.price-table-wrapper .pricing-table__list li:last-child {
+  border: none;
+}
+.price-table-wrapper .pricing-table:hover {
+  box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.1);
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:before {
+  top: -80%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 100%;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:after {
+  opacity: 1;
+  padding-right: 15px;
+}
+    
+    
+}
